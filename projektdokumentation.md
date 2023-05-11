@@ -4,8 +4,8 @@ Durian: Frey, Innamorato, Eisenring
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | Website ist Online auf https://giovi06.github.io/LA1600/ und läuft. |
-|       | ...     |                                                              |
+|  11.05.2023     | 0.0.1   | Website ist Online auf https://giovi06.github.io/LA1600/ und läuft. |
+|   11.05.2023    | 0.0.2     |Arbeitspakete 1A,2A und 3A|
 |       | 1.0.0   |                                                              |
 
 ## 1 Informieren
@@ -51,18 +51,16 @@ Unser Ziel ist es einen Onlineshop zu gestallten, welcher Benutzerfreundlich ist
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.A  |       |Frey|Nav erstellen im Header|45'|
-| ...  |       |Eisenring|Footer erstellen|45'|
-| ...  |       |Innamorato|Produkte hinzufügen|45'|
-| ...  |       |Frey|Text dazu erstellen|20'|
-| ...  |       |Eisenring|Nav funktionen erstelen (Menu)|90'|
-| ...  |       |Eisenring|verschieden farbige Blder der Produkte erstellen.|45'|
-| ...  |       |Innamorato|3D Animation des Produktes|180'|
-| ...  |       |Frey|Grössen auswahl des Produktes|45'|
-| ...  |       |Frey|Mengen angabe und Kauf button|45'|
-| ...  |       |Eisenring|LOGO erstellen|20'|
-| ...  |       |           |              |               |
-| ...  |       |           |              |               |
-| ...  |       |           |              |               |
+| 2.A  |       |Eisenring|Footer erstellen|45'|
+| 3.A  |       |Innamorato|Produkte hinzufügen|45'|
+| 3.B  |       |Frey|Text dazu erstellen|20'|
+| 1.B  |       |Eisenring|Nav funktionen erstelen (Menu)|90'|
+| 3.C  |       |Eisenring|verschieden farbige Blder der Produkte erstellen.|45'|
+| 3.D  |       |Innamorato|3D Animation des Produktes|180'|
+| 5.A  |       |Frey|Grössen auswahl des Produktes|45'|
+| 6.A  |       |Frey|Mengen angabe und Kauf button|45'|
+| 7.A  |       |Eisenring|LOGO erstellen|20'|
+
 
 Total: 
 
