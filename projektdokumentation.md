@@ -18,11 +18,11 @@ Unser Ziel ist es einen Onlineshop zu gestallten, welcher Benutzerfreundlich ist
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein Benutzer möchte ich einen Menu Button haben, damit wenn ich drauf drücke mir ein Drop-down-menu angezeigt wird mit den verschiedenen Abtelungen |
-| ...  |                 |      |Als ein Benutzer möchte ich über das Bild hovern können und dass das Bild vergrössert wird.|
-| ...  |                 |      |Als ein Benutzer möchte ich die grösse zwischen EU und US auswählen.|
-| ...  |                 |      |Als ein Benutzer möchte ich eine Menubar haben die immer angezeigt wird.|
-| ...  |                 |      |Als ein Benutzer möchte ich eine Menu knopf haben, damit ich navigieren kann.|
+| 1    |Muss|      | Als ein Benutzer möchte ich einen Menu Button haben, damit wenn ich drauf drücke mir ein Drop-down-menu angezeigt wird mit den verschiedenen Abtelungen |
+| ...  |Muss|      |Als ein Benutzer möchte ich über das Bild hovern können und dass das Bild vergrössert wird.|
+| ...  |Muss|      |Als ein Benutzer möchte ich die grösse zwischen EU und US auswählen.|
+| ...  |Muss|      |Als ein Benutzer möchte ich eine Menubar haben die immer angezeigt wird.|
+| ...  |Kann|      |Als ein Benutzer möchte ich eine Menu knopf haben, damit ich navigieren kann.|
 
 
 
@@ -47,16 +47,16 @@ Unser Ziel ist es einen Onlineshop zu gestallten, welcher Benutzerfreundlich ist
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |Nav erstellen im Header|               |
-| ...  |       |           |Footer erstellen|               |
-| ...  |       |           |Produkte hinzufügen|               |
-| ...  |       |           |Text dazu erstellen|               |
-| ...  |       |           |Nav funktionen erstelen (Menu)|               |
-| ...  |       |           |              |               |
-| ...  |       |           |              |               |
-| ...  |       |           |              |               |
-| ...  |       |           |              |               |
-| ...  |       |           |              |               |
+| 1.A  |       |Frey|Nav erstellen im Header|45'|
+| ...  |       |Eisenring|Footer erstellen|45'|
+| ...  |       |Innamorato|Produkte hinzufügen|45'|
+| ...  |       |Frey|Text dazu erstellen|20'|
+| ...  |       |Eisenring|Nav funktionen erstelen (Menu)|90'|
+| ...  |       |Eisenring|verschieden farbige Blder der Produkte erstellen.|45'|
+| ...  |       |Innamorato|3D Animation des Produktes|180'|
+| ...  |       |Frey|Grössen auswahl des Produktes|45'|
+| ...  |       |Frey|Mengen angabe und Kauf button|45'|
+| ...  |       |Eisenring|LOGO erstellen|20'|
 | ...  |       |           |              |               |
 | ...  |       |           |              |               |
 | ...  |       |           |              |               |
