@@ -47,7 +47,18 @@ Unser Ziel ist es einen Onlineshop zu gestallten, welcher Benutzerfreundlich ist
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
+| 1.A  |       |           |Nav erstellen im Header|               |
+| ...  |       |           |Footer erstellen|               |
+| ...  |       |           |Produkte hinzufügen|               |
+| ...  |       |           |Text dazu erstellen|               |
+| ...  |       |           |Nav funktionen erstelen (Menu)|               |
+| ...  |       |           |              |               |
+| ...  |       |           |              |               |
+| ...  |       |           |              |               |
+| ...  |       |           |              |               |
+| ...  |       |           |              |               |
+| ...  |       |           |              |               |
+| ...  |       |           |              |               |
 | ...  |       |           |              |               |
 
 Total: 
