@@ -18,16 +18,13 @@ Unser Ziel ist es einen Onlineshop zu gestallten, welcher Benutzerfreundlich ist
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |Muss|      | Als ein Benutzer möchte ich einen Menu Button haben, damit wenn ich drauf drücke mir ein Drop-down-menu angezeigt wird mit den verschiedenen Abtelungen |
-| 2  |Muss|      |Als ein Benutzer möchte ich über das Bild hovern können und dass das Bild vergrössert wird.|
-| 3  |Muss|      |Als ein Benutzer möchte ich die grösse zwischen EU und US auswählen.|
-| 4  |Muss|      |Als ein Benutzer möchte ich eine Menubar haben die immer angezeigt wird.|
-| 5  |Kann|      |Als ein Benutzer möchte ich eine Menu knopf haben, damit ich navigieren kann.|
+| 1    |Muss|   Funktional   | Als ein Benutzer möchte ich einen Menu Button haben, damit wenn ich drauf drücke mir ein Drop-down-menu angezeigt wird mit den verschiedenen Abtelungen |
+| 2  |Muss|   Qualität   |Als ein Benutzer möchte ich über das Bild hovern können und dass das Bild vergrössert wird.|
+| 3  |Muss| Funktional     |Als ein Benutzer möchte ich die grösse zwischen EU und US auswählen.|
+| 4  |Muss|   Funktional   |Als ein Benutzer möchte ich eine Menubar haben die immer angezeigt wird.|
+| 5  |Kann|   Funktional   |Als ein Benutzer möchte ich eine Menu knopf haben, damit ich navigieren kann.|
 
 
-
-
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
 ### 1.3 Testfälle
 
@@ -39,7 +36,7 @@ Unser Ziel ist es einen Onlineshop zu gestallten, welcher Benutzerfreundlich ist
 |4.1|Webseite wird gestartet|-|Menu-Bar ist ersichtlich.|
 |5.1|Websiete ist geöffnet|-|Menu-Bar hat verschiedene Navigationsmöglichkeiten. |
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
+
 
 ### 1.4 Diagramme
 
@@ -62,11 +59,9 @@ Unser Ziel ist es einen Onlineshop zu gestallten, welcher Benutzerfreundlich ist
 | 7.A  |       |Eisenring|LOGO erstellen|20'|
 
 
-Total: 
+Total: 13 Arbeitspakete
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
 
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
 
 ## 3 Entscheiden
 
