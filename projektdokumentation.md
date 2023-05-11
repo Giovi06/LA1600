@@ -18,11 +18,11 @@ Unser Ziel ist es einen Onlineshop zu gestallten, welcher Benutzerfreundlich ist
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich einen Menu Button haben, damit wenn ich drauf drücke mir ein Drop-down-menu angezeigt wird mit den verschiedenen Abtelungen |
-| ...  |                 |      |Als ein 🤷‍♂️ möchte ich über das Bild hovern können und dass das Bild vergrössert wird.|
-| ...  |                 |      |Als ein 🤷‍♂️ möchte ich die grösse zwischen EU und US auswählen.|
-| ...  |                 |      |Als ein 🤷‍♂️ möchte ich eine Menubar haben die immer angezeigt wird.|
-| ...  |                 |      |Als ein 🤷‍♂️ möchte ich eine Menu knopf haben, damit ich navigieren kann.|
+| 1    |                 |      | Als ein Benutzer möchte ich einen Menu Button haben, damit wenn ich drauf drücke mir ein Drop-down-menu angezeigt wird mit den verschiedenen Abtelungen |
+| ...  |                 |      |Als ein Benutzer möchte ich über das Bild hovern können und dass das Bild vergrössert wird.|
+| ...  |                 |      |Als ein Benutzer möchte ich die grösse zwischen EU und US auswählen.|
+| ...  |                 |      |Als ein Benutzer möchte ich eine Menubar haben die immer angezeigt wird.|
+| ...  |                 |      |Als ein Benutzer möchte ich eine Menu knopf haben, damit ich navigieren kann.|
 
 
 
@@ -40,7 +40,8 @@ Unser Ziel ist es einen Onlineshop zu gestallten, welcher Benutzerfreundlich ist
 
 ### 1.4 Diagramme
 
-✍️Fügen Sie hier ein Use Case-Diagramm mit mindestens 3 Anwendungsfällen ein; und eine Skizze davon, wie Ihre Netzseite aussehen sollte.
+![image](https://github.com/Giovi06/LA1600/assets/111045919/0b5319dd-a9cf-4e53-af78-13255502a8be)
+
 
 ## 2 Planen
 
