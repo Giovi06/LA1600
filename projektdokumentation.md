@@ -19,10 +19,10 @@ Unser Ziel ist es einen Onlineshop zu gestallten, welcher Benutzerfreundlich ist
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    |Muss|      | Als ein Benutzer möchte ich einen Menu Button haben, damit wenn ich drauf drücke mir ein Drop-down-menu angezeigt wird mit den verschiedenen Abtelungen |
-| ...  |Muss|      |Als ein Benutzer möchte ich über das Bild hovern können und dass das Bild vergrössert wird.|
-| ...  |Muss|      |Als ein Benutzer möchte ich die grösse zwischen EU und US auswählen.|
-| ...  |Muss|      |Als ein Benutzer möchte ich eine Menubar haben die immer angezeigt wird.|
-| ...  |Kann|      |Als ein Benutzer möchte ich eine Menu knopf haben, damit ich navigieren kann.|
+| 2  |Muss|      |Als ein Benutzer möchte ich über das Bild hovern können und dass das Bild vergrössert wird.|
+| 3  |Muss|      |Als ein Benutzer möchte ich die grösse zwischen EU und US auswählen.|
+| 4  |Muss|      |Als ein Benutzer möchte ich eine Menubar haben die immer angezeigt wird.|
+| 5  |Kann|      |Als ein Benutzer möchte ich eine Menu knopf haben, damit ich navigieren kann.|
 
 
 
@@ -33,8 +33,11 @@ Unser Ziel ist es einen Onlineshop zu gestallten, welcher Benutzerfreundlich ist
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
+| 1.1 |      Webseite ist gestartet und geöffnet        | Benutzer klickt auf den Menu-Button        |  Drop-Down Liste erscheint. |
+| 2.1  |Webseite ist geöffnet|Benutzer hovert mit dem Mauszeiger über das Bild|Bild wird vergrössert.|
+|3.1|Webseite ist geöffnet|Benutzer wählt Produkt aus|Benutzer wird nach EU oder US grösse gefragt.|
+|4.1|Webseite wird gestartet|-|Menu-Bar ist ersichtlich.|
+|5.1|Websiete ist geöffnet|-|Menu-Bar hat verschiedene Navigationsmöglichkeiten. |
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
