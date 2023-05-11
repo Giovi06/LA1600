@@ -1,0 +1,90 @@
+/* Allgemeine Stile */
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+/* Produktbereich */
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px auto;
+    max-width: 800px;
+}
+
+.product h2 {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.product img {
+    max-width: 400px;
+    margin-right: 50px;
+}
+
+.product p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.product form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.product label {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.product input {
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.product button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.product button:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
