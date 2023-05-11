@@ -4,7 +4,7 @@ Durian: Frey, Innamorato, Eisenring
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
+|       | 0.0.1   | Website ist Online auf https://giovi06.github.io/LA1600/ und läuft. |
 |       | ...     |                                                              |
 |       | 1.0.0   |                                                              |
 
@@ -18,8 +18,14 @@ Unser Ziel ist es einen Onlineshop zu gestallten, welcher Benutzerfreundlich ist
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| ...  |                 |      |                                    |
+| 1    |                 |      | Als ein 🤷‍♂️ möchte ich einen Menu Button haben, damit wenn ich drauf drücke mir ein Drop-down-menu angezeigt wird mit den verschiedenen Abtelungen |
+| ...  |                 |      |Als ein 🤷‍♂️ möchte ich über das Bild hovern können und dass das Bild vergrössert wird.|
+| ...  |                 |      |Als ein 🤷‍♂️ möchte ich die grösse zwischen EU und US auswählen.|
+| ...  |                 |      |Als ein 🤷‍♂️ möchte ich eine Menubar haben die immer angezeigt wird.|
+| ...  |                 |      |Als ein 🤷‍♂️ möchte ich eine Menu knopf haben, damit ich navigieren kann.|
+
+
+
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
