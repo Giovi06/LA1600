@@ -23,30 +23,45 @@ header h1 {
 
 /* Produktbereich */
 .product-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr, 1fr;
     align-items: center;
-    flex-wrap: wrap;
 }
 
-.product-image {
-    align-self: flex-start;
-    flex: 1;
+.product-image-right {
+    grid-column: 3;
+    grid-row: 2;
     padding: 0px;
-    margin: 7vh 0px;
+    margin: 7vh 20px;
+}
+
+.product-description-left {
+    grid-column: span 2;
+    grid-row: 2;
+    margin: 50px;
+    padding: 20px 20px;
+    text-align: left;
+
+}
+
+.product-image-left {
+    grid-column: 1;
+    padding: 0px;
+    margin: 7vh 5px;
+}
+
+.product-description-right {
+    grid-column: span 2;
+    margin: 50px;
+    padding: 20px 20px;
+    text-align: left;
 }
 
 .product-image img {
     display: block;
     max-width: 85%;
     min-width: 50px;
-}
-
-.product-description {
-    flex: 1;
-    max-width: 50%;
-    margin: 50px;
-    padding: 20px 20px;
-    text-align: left;
 }
 
 .product-description h1 {
