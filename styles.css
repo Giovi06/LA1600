@@ -86,3 +86,11 @@ footer {
 footer p {
     margin: 0;
 }
+
+model-viewer {
+    width: 100vh;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-color: gray;
+}

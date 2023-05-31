@@ -4,10 +4,12 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Produktname - Webseite</title>
+    <title>Crocodile</title>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
     <!-- CSS -->
     <link rel="stylesheet" href="./styles.css">
+
 </head>
 
 <body>
@@ -24,10 +26,16 @@
     <!-- Produktbereich -->
     <section id="produkt">
         <div class="product-container">
-            <div class="product-image">
-                <img src="orangecroc.jpg" alt="OrangeCrocs" />
+            <div class="product-image-left">
+                <div id="object-container">
+                    <model-viewer src="scene.gltf" alt="A 3D model of a car" shadow-intensity="1" camera-controls
+                        auto-rotate ar>
+                    </model-viewer>
+                    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+                    </script>
+                </div>
             </div>
-            <div class="product-description">
+            <div class="product-description-right">
                 <h1>OrangeCrocs</h1>
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque laboriosam officiis, voluptas
@@ -37,23 +45,46 @@
             </div>
         </div>
         <div class="product-container">
-            <div class="product-image">
-                <img src="orangecroc.jpg" alt="OrangeCrocs" />
+            <div class="product-image-right">
+                <div id="object-container">
+                    <model-viewer src="scene.gltf" alt="A 3D model of a car" shadow-intensity="1" camera-controls
+                        auto-rotate ar>
+                    </model-viewer>
+                    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+                    </script>
+                </div>
             </div>
-            <div class="product-description">
+            <div class="product-description-left">
                 <h1>OrangeCrocs</h1>
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque laboriosam officiis, voluptas
                     aliquam culpa sint magnam consequuntur. Cumque beatae nulla impedit fugit, corporis, aliquid
                     dignissimos, expedita inventore voluptates enim eos.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, ex? Voluptas recusandae nihil
+                    quis quos consequatur in placeat debitis eaque excepturi veniam sint cupiditate dignissimos
+                    aspernatur, expedita laborum veritatis accusantium!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae assumenda consequuntur veniam
+                    ullam ex sunt amet sequi voluptatum ut, earum non facilis reiciendis esse, beatae nobis suscipit
+                    dicta animi at tenetur nesciunt fuga illo! Debitis ipsam, minus consequuntur assumenda quas est
+                    veniam vel, architecto ullam labore tempore! Atque minus non ullam quidem odit officiis unde itaque
+                    aut repellendus, nisi molestiae aperiam impedit nemo sequi provident dolore, maxime ut natus ipsum.
+                    Sit nostrum voluptas nesciunt, hic nam facilis atque, dolorum natus, accusantium doloribus nulla.
+                    Explicabo modi ducimus eaque dolorum iure esse iusto, dolores at? Tempore vitae totam odit, sequi
+                    optio repudiandae?
                 </p>
             </div>
         </div>
         <div class="product-container">
-            <div class="product-image">
-                <img src="orangecroc.jpg" alt="OrangeCrocs" />
+            <div class="product-image-left">
+                <div id="object-container">
+                    <model-viewer src="scene.gltf" alt="A 3D model of a car" shadow-intensity="1" camera-controls
+                        auto-rotate ar>
+                    </model-viewer>
+                    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+                    </script>
+                </div>
             </div>
-            <div class="product-description">
+            <div class="product-description-right">
                 <h1>OrangeCrocs</h1>
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque laboriosam officiis, voluptas
@@ -103,6 +134,9 @@
             <button type="submit">Absenden</button>
         </form>
     </section>
+    <model-viewer src="./3d/croc/scene.gltf" alt="A 3D model of a car" shadow-intensity="2" camera-controls auto-rotate
+        ar ios-src="3d/croc/Old_Crocs_by_DigitWorlds.usdz">
+    </model-viewer>
 </body>
 
 </html>
