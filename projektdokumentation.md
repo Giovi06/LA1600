@@ -6,13 +6,13 @@ Durian: Frey, Innamorato, Eisenring
 | ----- | ------- | ------------------------------------------------------------ |
 |  11.05.2023     | 0.0.1   | Website ist Online auf https://giovi06.github.io/LA1600/ und läuft. |
 |   11.05.2023    | 0.0.2     |Arbeitspakete 1A,2A und 3A|
-|       | 1.0.0   |                                                              |
+|1.06| 1.0.0   |Website ist in der ersten Vollversion veröffentlicht|
 
 ## 1 Informieren
 
 ### 1.1 Ihr Projekt
 
-Unser Ziel ist es einen Onlineshop zu gestallten, welcher Benutzerfreundlich ist und gut aussieht.
+Unser Ziel ist es einen Onlineshop zu gestallten, welcher Benutzerfreundlich ist und gut aussieht, unser Ziel ist bestmöglich unsere Crocs zu verkaufen.
 
 ### 1.2 User Stories
 
@@ -23,6 +23,11 @@ Unser Ziel ist es einen Onlineshop zu gestallten, welcher Benutzerfreundlich ist
 | 3  |Muss| Funktional     |Als ein Benutzer möchte ich die grösse zwischen EU und US auswählen.|
 | 4  |Muss|   Funktional   |Als ein Benutzer möchte ich eine Menubar haben die immer angezeigt wird.|
 | 5  |Kann|   Funktional   |Als ein Benutzer möchte ich eine Menu knopf haben, damit ich navigieren kann.|
+| 6  |Kann|   Qualität   |Als ein Benutzer möchte ich im Menu knopf die Sprache auswählen können, damit ich es in meiner Sprache lesen kann.|
+| 7  |Muss|   Funktional   |Als ein Benutzer möchte ich eine Strukturierte Website haben mit Footer,Navbar und Main, damit ich eine bessere Übersicht habe.|
+| 8  |Kann|   Qualität   |Als ein Benutzer möchte ich eine 3D-Darstellung des Produktes haben, damit ich mir das Produkt von alles Seiten anschauen kann.|
+
+
 
 
 
@@ -30,11 +35,13 @@ Unser Ziel ist es einen Onlineshop zu gestallten, welcher Benutzerfreundlich ist
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1 |      Webseite ist gestartet und geöffnet        | Benutzer klickt auf den Menu-Button        |  Drop-Down Liste erscheint. |
-| 2.1  |Webseite ist geöffnet|Benutzer hovert mit dem Mauszeiger über das Bild|Bild wird vergrössert.|
-|3.1|Webseite ist geöffnet|Benutzer wählt Produkt aus|Benutzer wird nach EU oder US grösse gefragt.|
-|4.1|Webseite wird gestartet|-|Menu-Bar ist ersichtlich.|
-|5.1|Websiete ist geöffnet|-|Menu-Bar hat verschiedene Navigationsmöglichkeiten. |
+| 1.1 |Website ist gestartet und geöffnet | Benutzer klickt auf den Menu-Button        |  Drop-Down Liste erscheint. |
+| 2.1 |Website ist geöffnet|Benutzer hovert mit dem Mauszeiger über das Bild|Bild wird vergrössert.|
+|3.1|Website ist geöffnet|Benutzer wählt Produkt aus|Benutzer wird nach EU oder US grösse gefragt.|
+|4.1|Website wird gestartet|-|Menu-Bar ist ersichtlich.|
+|5.1|Website ist geöffnet|-|Menu-Bar hat verschiedene Navigationsmöglichkeiten. |
+|6.1|Website ist auf Deutsch|EN button wird getätigt |Die Website wechselt auf English. |
+
 
 
 
@@ -47,16 +54,17 @@ Unser Ziel ist es einen Onlineshop zu gestallten, welcher Benutzerfreundlich ist
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |25.5|Frey|Nav erstellen im Header|45'|
-| 2.A  |25.5|Eisenring|Footer erstellen|45'|
-| 3.A  |25.5|Innamorato|Produkte hinzufügen|45'|
-| 3.B  |25.5|Frey|Text dazu erstellen|20'|
-| 1.B  |01.06|Eisenring|Nav funktionen erstelen (Menu)|90'|
-| 3.C  |01.06|Eisenring|verschieden farbige Bilder der Produkte erstellen.|45'|
-| 3.D  |01.06|Innamorato|3D Animation des Produktes|180'|
-| 5.A  |15.06|Frey|Grössen auswahl des Produktes|45'|
+| 7.A  |25.5|Frey|Nav erstellen im Header|45'|
+| 7.B  |25.5|Eisenring|Footer erstellen|45'|
+| 8.A  |25.5|Innamorato|Produkte hinzufügen|45'|
+| 6.A  |25.5|Frey|Text dazu erstellen|20'|
+| 3.c  |01.06|Eisenring|Nav funktionen erstelen (Menu)|90'|
+| 3.C |01.06|Eisenring|verschieden farbige Bilder der Produkte erstellen.|45'|
+| 8.D  |01.06|Innamorato|3D Animation des Produktes|180'|
+| 3.A  |15.06|Frey|Grössen auswahl des Produktes|45'|
 | 6.A  |15.6|Frey|Mengen angabe und Kauf button|45'|
-| 7.A  |25.5|Eisenring|LOGO erstellen|20'|
+| 7.D  |25.5|Eisenring|LOGO erstellen|20'|
+
 
 
 Total: 13 Arbeitspakete
@@ -71,10 +79,8 @@ Total: 13 Arbeitspakete
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
-| ...  |       |           |               |                   |
-| ...  |       |           |               |                   |
+| 1.A  |25.5|Frey|45'|60'|
+| 2.A  |25.5|Eisenring|45'|45'|
 | 3.A  |25.5|Innamorato|45'|30'|
 | 3.D  |25.5|Innamorato|180'|200'|
 | ...  |       |           |               |                   |
