@@ -47,16 +47,16 @@ Unser Ziel ist es einen Onlineshop zu gestallten, welcher Benutzerfreundlich ist
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |Frey|Nav erstellen im Header|45'|
-| 2.A  |       |Eisenring|Footer erstellen|45'|
-| 3.A  |       |Innamorato|Produkte hinzufügen|45'|
-| 3.B  |       |Frey|Text dazu erstellen|20'|
-| 1.B  |       |Eisenring|Nav funktionen erstelen (Menu)|90'|
-| 3.C  |       |Eisenring|verschieden farbige Bilder der Produkte erstellen.|45'|
-| 3.D  |       |Innamorato|3D Animation des Produktes|180'|
-| 5.A  |       |Frey|Grössen auswahl des Produktes|45'|
-| 6.A  |       |Frey|Mengen angabe und Kauf button|45'|
-| 7.A  |       |Eisenring|LOGO erstellen|20'|
+| 1.A  |25.5|Frey|Nav erstellen im Header|45'|
+| 2.A  |25.5|Eisenring|Footer erstellen|45'|
+| 3.A  |25.5|Innamorato|Produkte hinzufügen|45'|
+| 3.B  |25.5|Frey|Text dazu erstellen|20'|
+| 1.B  |01.06|Eisenring|Nav funktionen erstelen (Menu)|90'|
+| 3.C  |01.06|Eisenring|verschieden farbige Bilder der Produkte erstellen.|45'|
+| 3.D  |01.06|Innamorato|3D Animation des Produktes|180'|
+| 5.A  |15.06|Frey|Grössen auswahl des Produktes|45'|
+| 6.A  |15.6|Frey|Mengen angabe und Kauf button|45'|
+| 7.A  |25.5|Eisenring|LOGO erstellen|20'|
 
 
 Total: 13 Arbeitspakete
@@ -72,6 +72,14 @@ Total: 13 Arbeitspakete
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
 | 1.A  |       |           |               |                   |
+| ...  |       |           |               |                   |
+| ...  |       |           |               |                   |
+| ...  |       |           |               |                   |
+| 3.A  |25.5|Innamorato|45'|30'|
+| 3.D  |25.5|Innamorato|180'|200'|
+| ...  |       |           |               |                   |
+| ...  |       |           |               |                   |
+| ...  |       |           |               |                   |
 | ...  |       |           |               |                   |
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
