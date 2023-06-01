@@ -1,4 +1,48 @@
 /* Allgemeine Stile */
+.topnav {
+    background-color: #2A2B2A;
+    overflow: hidden;
+}
+
+.topnav a:hover {
+    background-color: grey;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #265f4a43;
+    color: white;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.left {
+    float: left;
+    color: rgb(6, 187, 144);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.right {
+    float: right;
+    color: rgb(6, 187, 144);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
 * {
     box-sizing: border-box;
     font-family: Arial, sans-serif;
@@ -93,24 +137,4 @@ model-viewer {
     margin: 0;
     overflow: hidden;
     background-color: gray;
-}
-.topnav {
-    background-color: #2A2B2A;
-    overflow: hidden;
-}
-.topnav a:hover {
-    background-color: grey;
-    color: black;
-}
-.topnav a.active {
-    background-color: #265f4a43;
-    color: white;
-}
-.sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-}
-html {
-    scroll-behavior: smooth;
 }
