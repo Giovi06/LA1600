@@ -94,3 +94,23 @@ model-viewer {
     overflow: hidden;
     background-color: gray;
 }
+.topnav {
+    background-color: #2A2B2A;
+    overflow: hidden;
+}
+.topnav a:hover {
+    background-color: grey;
+    color: black;
+}
+.topnav a.active {
+    background-color: #265f4a43;
+    color: white;
+}
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
