@@ -125,6 +125,64 @@ header h1 {
     font-family: "Merriweather", serif;
 }
 
+model-viewer {
+    width: 100vh;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Product Site*/
+.container {
+    display: flex;
+}
+
+.filter {
+    width: 200px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    height: 100vh;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 10px;
+}
+
+.product-price {
+    font-weight: bold;
+}
+
+.product-name {
+    margin-top: 5px;
+}
+
 /* Footer */
 footer {
     background-color: #333;
@@ -135,12 +193,4 @@ footer {
 
 footer p {
     margin: 0;
-}
-
-model-viewer {
-    width: 100vh;
-    height: 100vh;
-    margin: 0;
-    overflow: hidden;
-    background-color: gray;
 }

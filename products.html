@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Crocodile</title>
+    <title>Crocodile-Products</title>
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
     <!-- CSS -->
@@ -15,7 +15,7 @@
 <body>
     <nav class="sticky">
         <div class="topnav">
-            <a class="left" href="#home">
+            <a class="left" href="./index.html">
                 <h3>Home </h3>
             </a>
             <a class="left" href="./products.html">
@@ -30,6 +30,32 @@
 
         </div>
     </nav>
+    <div class="container">
+        <aside class="filter">
+            <h2>Filter</h2>
+            <label for="price-filter">Price: 1 - 1000</label>
+            <input type="range" id="price-filter" min="0" max="100" value="0">
+        </aside>
+        <main class="product-grid">
+            <div class="product">
+                <img src="orangecroc.jpg" alt="Product 1">
+                <div class="product-info">
+                    <h3 class="product-name">Croc 1</h3>
+                    <span class="product-price">$100</span>
+                </div>
+            </div>
+            <div class="product">
+                <img src="orangecroc.jpg" alt="Product 2">
+                <div class="product-info">
+                    <h3 class="product-name">Croc 2</h3>
+                    <span class="product-price">$150</span>
+                </div>
+            </div>
+            <!-- Add more product items as needed -->
+        </main>
+    </div>
 </body>
+
+</html>
 
 </html>

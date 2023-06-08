@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
-   
+
 
     <!-- CSS -->
     <link rel="stylesheet" href="styles.css">
@@ -16,11 +16,13 @@
 </head>
 
 <body>
-    <!-- Menüleiste -->
+    <!-- Import Model-Viewer -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
+    <!-- Navbar -->
     <nav class="sticky">
         <div class="topnav">
-            <a class="left" href="#home">
+            <a class="left" href="./index.html">
                 <h3>Home </h3>
             </a>
             <a class="left" href="./products.html">
@@ -40,16 +42,26 @@
     <section id="produkt">
         <div class="product-container">
             <div class="product-image-left">
-                <div id="object-container">
-                    <model-viewer src="./croc/scene.gltf" alt="A 3D model of a car" shadow-intensity="1" camera-controls
-                        auto-rotate ar>
-                    </model-viewer>
-                    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
-                    </script>
-                </div>
+                <model-viewer id="color" src="./croc/scene.gltf" alt="A 3D model of a croc" shadow-intensity="1"
+                    camera-controls auto-rotate ar ios-src="./croc/Old_Crocs_by_DigitWorlds.usdz">
+                    <div class="controls" id="color-controls">
+                        <button data-color="#ff0000">Red</button>
+                        <button data-color="#00ff00">Green</button>
+                        <button data-color="#87CEEB">Skyblue</button>
+                    </div>
+                </model-viewer>
+                <script>
+                    const modelViewerColor = document.querySelector("model-viewer#color");
+
+                    document.querySelector('#color-controls').addEventListener('click', (event) => {
+                        const colorString = event.target.dataset.color;
+                        const [material] = modelViewerColor.model.materials;
+                        material.pbrMetallicRoughness.setBaseColorFactor(colorString);
+                    });
+                </script>
             </div>
             <div class="product-description-right">
-                <h1>OrangeCrocs</h1>
+                <h1>Crocs</h1>
                 <p>
                     Welcome to OrangeCroc, where style meets comfort! Our iconic product, the OrangeCroc, is the perfect
                     choice for those who want to make a bold fashion statement while enjoying unparalleled comfort.
@@ -81,16 +93,26 @@
         </div>
         <div class="product-container">
             <div class="product-image-right">
-                <div id="object-container">
-                    <model-viewer src="./croc/scene.gltf" alt="A 3D model of a car" shadow-intensity="1" camera-controls
-                        auto-rotate ar>
-                    </model-viewer>
-                    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
-                    </script>
-                </div>
+                <model-viewer id="color-right" src="./croc/scene.gltf" alt="A 3D model of a croc" shadow-intensity="1"
+                    camera-controls auto-rotate ar ios-src="./croc/Old_Crocs_by_DigitWorlds.usdz">
+                    <div class="controls" id="color-controls-right">
+                        <button data-color="#ff0000">Red</button>
+                        <button data-color="#00ff00">Green</button>
+                        <button data-color="#87CEEB">Skyblue</button>
+                    </div>
+                </model-viewer>
+                <script>
+                    const modelViewerColorRight = document.querySelector("model-viewer#color-right");
+
+                    document.querySelector('#color-controls-right').addEventListener('click', (event) => {
+                        const colorString = event.target.dataset.color;
+                        const [material] = modelViewerColorRight.model.materials;
+                        material.pbrMetallicRoughness.setBaseColorFactor(colorString);
+                    });
+                </script>
             </div>
             <div class="product-description-left">
-                <h1>OrangeCrocs</h1>
+                <h1>Crocs</h1>
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque laboriosam officiis, voluptas
                     aliquam culpa sint magnam consequuntur. Cumque beatae nulla impedit fugit, corporis, aliquid
@@ -111,13 +133,23 @@
         </div>
         <div class="product-container">
             <div class="product-image-left">
-                <div id="object-container">
-                    <model-viewer src="./croc/scene.gltf" alt="A 3D model of a car" shadow-intensity="1" camera-controls
-                        auto-rotate ar>
-                    </model-viewer>
-                    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
-                    </script>
-                </div>
+                <model-viewer id="color-left" src="./croc/scene.gltf" alt="A 3D model of a croc" shadow-intensity="1"
+                    camera-controls auto-rotate ar ios-src="./croc/Old_Crocs_by_DigitWorlds.usdz">
+                    <div class="controls" id="color-controls-left">
+                        <button data-color="#ff0000">Red</button>
+                        <button data-color="#00ff00">Green</button>
+                        <button data-color="#87CEEB">Skyblue</button>
+                    </div>
+                </model-viewer>
+                <script>
+                    const modelViewerColorLeft = document.querySelector("model-viewer#color-left");
+
+                    document.querySelector('#color-controls-left').addEventListener('click', (event) => {
+                        const colorString = event.target.dataset.color;
+                        const [material] = modelViewerColorLeft.model.materials;
+                        material.pbrMetallicRoughness.setBaseColorFactor(colorString);
+                    });
+                </script>
             </div>
             <div class="product-description-right">
                 <h1>OrangeCrocs</h1>
