@@ -58,10 +58,10 @@ Unser Ziel ist es einen Onlineshop zu gestallten, welcher Benutzerfreundlich ist
 | 7.B  |25.5|Eisenring|Footer erstellen|45'|
 | 8.A  |25.5|Innamorato|Produkte hinzufügen|45'|
 | 6.A  |25.5|Frey|Text dazu erstellen|20'|
-| 3.c  |01.06|Eisenring|Nav funktionen erstelen (Menu)|90'|
-| 3.C |01.06|Eisenring|verschieden farbige Bilder der Produkte erstellen.|45'|
-| 8.D  |01.06|Innamorato|3D Animation des Produktes|180'|
-| 3.A  |15.06|Frey|Grössen auswahl des Produktes|45'|
+| 3.A  |01.06|Eisenring|Nav funktionen erstelen (Menu)|90'|
+| 3.B |01.06|Eisenring|verschieden farbige Bilder der Produkte erstellen.|45'|
+| 8.B  |01.06|Innamorato|3D Animation des Produktes|180'|
+| 3.C  |15.06|Frey|Grössen auswahl des Produktes|45'|
 | 6.A  |15.6|Frey|Mengen angabe und Kauf button|45'|
 | 7.D  |25.5|Eisenring|LOGO erstellen|20'|
 
@@ -81,9 +81,9 @@ Total: 13 Arbeitspakete
 | ---- | ----- | --------- | ------------- | ----------------- |
 | 1.A  |25.5|Frey|45'|60'|
 | 2.A  |25.5|Eisenring|45'|45'|
-| 3.A  |25.5|Innamorato|45'|30'|
-| 3.D  |25.5|Innamorato|180'|200'|
-| ...  |       |           |               |                   |
+| 8.A  |25.5|Innamorato|45'|30'|
+| 8.B  |25.5|Innamorato|180'|200'|
+| 3.B  |1.6|Innamorato|45'|60'|
 | ...  |       |           |               |                   |
 | ...  |       |           |               |                   |
 | ...  |       |           |               |                   |
