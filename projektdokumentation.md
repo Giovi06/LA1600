@@ -88,14 +88,19 @@ Total: 13 Arbeitspakete
 | 7.B |  8.06|Eisenring|45|  135  |
 | ...  |       |           |               |                   |
 
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
 ## 5 Kontrollieren
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  |22.06|NOK|Innamorato|
+| 2.2  |22.06|NOK|Innamorato|
+| 3.3  |22.06|NOK|Innamorato|
+| 4.4  |22.06|OK|Innamorato|
+| 5.5  |22.06|NOK|Innamorato|
+| 6.6  |22.06|NOK|Innamorato|
+| 7.7  |22.06|OK|Innamorato|
+| 8.8  |22.06|OK|Innamorato|
 
 ✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
 
