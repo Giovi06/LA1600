@@ -84,8 +84,8 @@ Total: 13 Arbeitspakete
 | 8.A  |25.5|Innamorato|45'|30'|
 | 8.B  |25.5|Innamorato|180'|200'|
 | 3.B  |1.6|Innamorato|45'|60'|
-| ...  |       |           |               |                   |
-| ...  |       |           |               |                   |
+| 7.D  | 8.06    |  Eisenring         |     20     |      20       |
+| 7.B |  8.06|Eisenring|45|  135  |
 | ...  |       |           |               |                   |
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
