@@ -67,13 +67,14 @@ Unser Ziel ist es einen Onlineshop zu gestallten, welcher Benutzerfreundlich ist
 
 
 
+
 Total: 13 Arbeitspakete
 
 
 
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+
 
 ## 4 Realisieren
 
@@ -86,7 +87,8 @@ Total: 13 Arbeitspakete
 | 3.B  |1.6|Innamorato|45'|60'|
 | 7.D  | 8.06    |  Eisenring         |     20     |      20       |
 | 7.B |  8.06|Eisenring|45|  135  |
-| ...  |       |           |               |                   |
+| 6.A  |8.06       |Frey         |20               | 40                  |
+
 
 
 ## 5 Kontrollieren
@@ -102,7 +104,7 @@ Total: 13 Arbeitspakete
 | 7.7  |22.06|OK|Innamorato|
 | 8.8  |22.06|OK|Innamorato|
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+Viele anforderungen wurden noch nicht komplett erfolgreich.
 
 ## 6 Auswerten
 
