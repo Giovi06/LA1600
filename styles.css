@@ -185,12 +185,79 @@ model-viewer {
 
 /* Footer */
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
+  background-color: #2A2B2A;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
 
-footer p {
-    margin: 0;
+.container {
+  max-width: 960px;
+  margin-left: 15%;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.footer-title {
+  margin-bottom: 25px;
+  margin-left: 10%;
+}
+
+.footer-subtitles {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-right: 50px;
+
+}
+
+.footer-lists {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-list,
+.right-list {
+  list-style: none;
+  padding: 0;
+}
+
+.left-list li,
+.right-list li {
+  margin-bottom: 5px;
+}
+
+#left-subtitle {
+  margin-left: 150px;
+}
+
+#right-subtitle {
+  margin-right: 10px;
+}
+
+#story {
+  margin-right: 100px;
+}
+
+#instagram_logo {
+  height: 50px;
+  width: 50px;
+  margin-top: 50px;
+}
+
+#youtube_logo {
+  height: 42px;
+  width: 50px;
+  margin-top: 50px;
+  margin-bottom: 5px;
+}
+
+#jump_products {
+  margin-right: 175px;
+  transition: 0.3 ease;
+  text-decoration: none;
+  color: white;
+  margin-top: 15px;
 }
