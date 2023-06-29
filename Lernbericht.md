@@ -1,6 +1,6 @@
 # Lern-Bericht
 Durian
-Inamorato, Eisenring; Frey
+Inamorato, Eisenring, Frey
 
 ## Einleitung
 
