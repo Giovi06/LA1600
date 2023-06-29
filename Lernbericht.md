@@ -8,7 +8,7 @@ In unserem Projekt haben wir eine Webseite erstellt, auf der wir Crocs vermarkte
 
 ## Was habe ich gelernt?
 
-In diesem Projekt haben wir den Zusammenhang von Margin, Border, Padding und Content gelernt. 
+ Wir haben den Zusammenhang von Margin, Border, Padding und Content gelernt. 
 
 ## Beschreibung
 
